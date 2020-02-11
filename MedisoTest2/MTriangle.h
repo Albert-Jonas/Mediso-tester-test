@@ -11,6 +11,7 @@ public:
     MTriangle(float l1, float l2, float l3);
 
     bool setLengths(float l1, float l2, float l3);
+    bool isValid() const noexcept;
     float lenghth1();
     float lenghth2();
     float lenghth3();

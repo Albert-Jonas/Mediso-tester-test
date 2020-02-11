@@ -21,6 +21,13 @@ bool MTriangle::setLengths(float al1, float al2, float al3)
     }
 }
 
+bool MTriangle::isValid() const noexcept
+{
+    return mLenghth1 + mLenghth2 >= mLenghth3 &&
+           mLenghth2 + mLenghth3 >= mLenghth1 &&
+           mLenghth1 * mLenghth2 * mLenghth3 != 0;
+}
+
 float MTriangle::lenghth1()
 {
     return this->mLenghth1;
