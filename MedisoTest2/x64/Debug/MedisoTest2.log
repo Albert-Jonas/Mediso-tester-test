@@ -1,8 +1,0 @@
-﻿  main.cpp
-c:\work\test_exercises\exercise1\medisotest2\main.cpp(6): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\work\test_exercises\exercise1\medisotest2\main.cpp(7): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\work\test_exercises\exercise1\medisotest2\main.cpp(8): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\work\test_exercises\exercise1\medisotest2\main.cpp(11): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  MTriangle.cpp
-  Generating Code...
-  MedisoTest2.vcxproj -> C:\work\Test_exercises\Exercise1\MedisoTest2\x64\Debug\MedisoTest2.exe
