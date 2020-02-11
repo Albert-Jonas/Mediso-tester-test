@@ -3,6 +3,12 @@
 
 int main(int argc, char *argv[])
 {
+    if (argc < 4)
+    {
+        std::cerr << "Usage: " << argv[0] << " <length1> <length2> <length3>" << std::endl;
+        return 1;
+    }
+
     int A = atof(argv[1]);
     int B = atof(argv[2]);
     int C = atof(argv[3]);
@@ -19,4 +25,6 @@ int main(int argc, char *argv[])
     {
         std::cout << "No triangle is constructed.\n";
     }
+
+    return 0;
 }
