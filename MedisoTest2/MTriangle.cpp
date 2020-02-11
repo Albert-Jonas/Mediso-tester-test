@@ -4,7 +4,9 @@ MTriangle::MTriangle(float l1, float l2, float l3)
     : mLenghth1(l1)
     , mLenghth2(l2)
     , mLenghth3(l3)
-{}
+{
+// TODO What to do when lengths are not valid? An std::logic_error might be thrown
+}
 
 bool MTriangle::isValid() const noexcept
 {
