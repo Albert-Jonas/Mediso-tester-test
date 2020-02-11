@@ -28,15 +28,15 @@ bool MTriangle::isValid() const noexcept
            mLenghth1 * mLenghth2 * mLenghth3 != 0;
 }
 
-float MTriangle::lenghth1()
+float MTriangle::lenghth1()  const noexcept
 {
-    return this->mLenghth1;
+    return mLenghth1;
 }
-float MTriangle::lenghth2()
+float MTriangle::lenghth2() const noexcept
 {
-    return this->mLenghth1;
+    return mLenghth1;
 }
-float MTriangle::lenghth3()
+float MTriangle::lenghth3() const noexcept
 {
-    return this->mLenghth1;
+    return mLenghth1;
 }
