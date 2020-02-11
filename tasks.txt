@@ -1,7 +1,7 @@
 1. Task - exe file
 
 You have an exe that does the following:
-Gets 3 parameters
+Gets 3 parameters that represents sides lenghts. 
 Tries to construct a triangle from them.
 Prints the results.
 
