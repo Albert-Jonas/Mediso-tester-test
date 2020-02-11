@@ -1,0 +1,23 @@
+1. Task - exe file
+
+You have an exe that does the following:
+Gets 3 parameters
+Tries to construct a triangle from them.
+Prints the results.
+
+Devise exploratory tests and log the results. 
+
+2. Task - source code
+
+You have the source code.
+Also you have Visual Studio solution, use that if you want. 
+
+Write test code to test the MTriangle class. 
+If you don't know cmake, but know gtest, you can also do 3.b!
+
+3. Task - source code, cmake files and gtest
+
+You have a cmake project with the sources.
+
+a, Use cmake to create a test project, link gtest and the project under test to the test project.
+b, Write tests in gtest and create an xml output from the tests.
