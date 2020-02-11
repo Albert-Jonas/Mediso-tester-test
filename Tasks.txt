@@ -1,13 +1,13 @@
-1. Task - exe file
+1. Task - testing a file
 
-You have an exe that does the following:
-Gets 3 parameters that represents sides lenghts. 
+You have file that does the following:
+Gets 3 parameters that represent side lenghts. 
 Tries to construct a triangle from them.
 Prints the results.
 
 Devise exploratory tests and log the results. 
 
-2. Task - source code
+2. Task - testing in source code
 
 You have the source code.
 Also you have Visual Studio solution, use that if you want. 
@@ -15,7 +15,7 @@ Also you have Visual Studio solution, use that if you want.
 Write test code to test the MTriangle class. 
 If you don't know cmake, but know gtest, you can also do 3.b!
 
-3. Task - source code, cmake files and gtest
+3. Task - testing in source code with cmake and gtest
 
 You have a cmake project with the sources.
 
