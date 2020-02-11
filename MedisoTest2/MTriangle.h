@@ -11,7 +11,7 @@ public:
     float lenghth3() const noexcept;
 
 private:
-    float mLenghth1; // lengths of sides 1, 2, and 3
-    float mLenghth2; // clockwise around
-    float mLenghth3; // the triangle
+    const float mLenghth1; // lengths of sides 1, 2, and 3
+    const float mLenghth2; // clockwise around
+    const float mLenghth3; // the triangle
 };
