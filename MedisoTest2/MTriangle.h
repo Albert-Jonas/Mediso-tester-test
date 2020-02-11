@@ -3,14 +3,8 @@
 class MTriangle
 {
 public:
-    MTriangle()
-        : mLenghth1(1.0)
-        , mLenghth2(1.0)
-        , mLenghth3(1.0) {}
-
     MTriangle(float l1, float l2, float l3);
 
-    bool setLengths(float l1, float l2, float l3);
     bool isValid() const noexcept;
     float lenghth1() const noexcept;
     float lenghth2() const noexcept;
