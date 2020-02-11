@@ -8,6 +8,8 @@ public:
         , mLenghth2(1.0)
         , mLenghth3(1.0) {}
 
+    MTriangle(float l1, float l2, float l3);
+
     bool setLengths(float l1, float l2, float l3);
     float lenghth1();
     float lenghth2();
