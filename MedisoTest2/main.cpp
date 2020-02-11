@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
     auto triangle = MTriangle();
     bool result = triangle.setLengths(A, B, C);
 
-    std::cout << "\nThe lengths you provided are: "<< A << ", " << B << " and " << C << ".\n\n"; 
+    std::cout << "\nThe lengths you provided are: "<< A << ", " << B << " and " << C << ".\n\n";
     if (result)
     {
         std::cout << "A triangle is constructed with sides " << A << ", " << B << " and " << C << ".\n\n";
