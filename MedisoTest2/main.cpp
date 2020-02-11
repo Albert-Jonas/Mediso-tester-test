@@ -13,11 +13,10 @@ int main(int argc, char *argv[])
     int B = atof(argv[2]);
     int C = atof(argv[3]);
 
-    auto triangle = MTriangle();
-    bool result = triangle.setLengths(A, B, C);
+    const MTriangle triangle(A, B, C);
 
     std::cout << "\nThe lengths you provided are: "<< A << ", " << B << " and " << C << ".\n\n";
-    if (result)
+    if (triangle.isValid())
     {
         std::cout << "A triangle is constructed with sides " << A << ", " << B << " and " << C << ".\n\n";
     }
