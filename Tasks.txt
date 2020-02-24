@@ -1,9 +1,9 @@
 1. Task - testing a file
 
-You have file that does the following:
-Gets 3 parameters that represent side lenghts. 
+You have a file that does the following:
+Gets 3 parameters that represent side lengths. 
 Tries to construct a triangle from them.
-Prints the results.
+Prints the result.
 
 Devise exploratory tests and log the results. 
 
