@@ -6,18 +6,19 @@ Tries to construct a triangle from them.
 Prints the result.
 
 Devise exploratory tests and log the results. 
+Please document your process, findings and questions!
 
 2. Task - testing in source code
 
-You have the source code.
-Also you have Visual Studio solution, use that if you want. 
+You have the source code: MedisoTest2
+It has a test project, MTriangleTest, which has gtest linked to it and an example test. 
 
-Write test code to test the MTriangle class. 
-If you don't know cmake, but know gtest, you can also do 3.b!
+Write more tests to the MTriangle class!
+Please document your process, findings and questions!
 
 3. Task - testing in source code with cmake and gtest
 
 You have a cmake project with the sources.
 
 a, Use cmake to create a test project, link gtest and the project under test to the test project.
-b, Write tests in gtest and create an xml output from the tests.
+b, Use your tests from before, and create an xml output from the tests.
